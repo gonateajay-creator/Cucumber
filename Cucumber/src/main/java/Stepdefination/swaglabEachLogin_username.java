@@ -27,12 +27,12 @@ public class swaglabEachLogin_username {
 		driver.findElement(By.id("user-name")).sendKeys(uname);
         driver.findElement(By.id("password")).sendKeys(pass);
         driver.findElement(By.id("login-button")).click();
-        System.out.println("Valid Login Successful");
+//        System.out.println("Valid Login Successful");
 	}
 
 	@Then("swaglab login should be succeddfull")
 	public void swaglab_login_should_be_succeddfull() {
 	    // Write code here that turns the phrase above into concrete actions
-	    System.out.println(" login successfully");
+	    System.out.println("valif login successfully");
 	}
 }
