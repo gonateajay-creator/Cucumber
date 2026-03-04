@@ -1,5 +1,5 @@
 Feature: Demoblaze add to cart 
-
+@smoke
 Scenario:
 verify add to cart functionality
 Given demoblaze website should be launch

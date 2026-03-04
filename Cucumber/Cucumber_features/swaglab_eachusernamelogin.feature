@@ -1,4 +1,5 @@
 Feature: swaglab every username login
+@smoke
 Scenario Outline:
 verify user can login using each acceted username
 Given launch swaglab website
@@ -11,4 +12,5 @@ Examples:
          |performance_glitch_user   |  secret_sauce   |
          |error_user                |  secret_sauce   |
          |visual_user               |  secret_sauce   |
-       #  |locked_out_user           |  secret_sauce   |
+         |locked_out_user           |  secret_sauce   |
+       

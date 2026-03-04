@@ -33,6 +33,6 @@ public class swaglabEachLogin_username {
 	@Then("swaglab login should be succeddfull")
 	public void swaglab_login_should_be_succeddfull() {
 	    // Write code here that turns the phrase above into concrete actions
-	    System.out.println("valif login successfully");
+	    System.out.println("valid login successfully");
 	}
 }

@@ -1,6 +1,6 @@
 Feature: orangehrm Login
 
-
+@smoke
  Scenario: successful login when User enters valid username and valid password
 
  Given User is on OrangeHRM login page

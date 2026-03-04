@@ -1,5 +1,5 @@
  Feature:Gmail Login
-
+@regression
  Scenario: verify login successfull when user enter valid gmail and password
  Given user should create the account on gmail
  When launch gmail website
