@@ -1,5 +1,5 @@
 Feature: user Demoblaze signup and Login
-@smoke
+@smoke @regression
 Scenario: verify demoblaze signup successfull when user enter username and pasword
 Given launch demoblaze website
 When user click on demoblaze signup 
@@ -7,7 +7,7 @@ And demoblaze user enter username and password
 And click on signup button,handle popup
 Then signup successfull
 
-
+@smoke @regression
 Scenario: verify demoblaze login successfull when user enter username and pasword
 Given launch demoblaze website for login
 When user click on demoblaze login 

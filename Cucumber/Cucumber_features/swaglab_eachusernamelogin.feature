@@ -1,5 +1,5 @@
 Feature: swaglab every username login
-@smoke
+
 Scenario Outline:
 verify user can login using each acceted username
 Given launch swaglab website

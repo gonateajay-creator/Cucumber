@@ -1,5 +1,5 @@
 Feature: Fb login
-@regression
+
 Scenario:
 verify login failed when user enter invalid credential
 Given Chrome Browser should be invoked

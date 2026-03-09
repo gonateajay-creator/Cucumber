@@ -6,9 +6,11 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="Cucumber_features",glue="Stepdefination",tags="not @smoke",monochrome=true,plugin= {"pretty","html:target\\cucumberreport.html",
-		"pretty","json:target\\cucumberreport.json"}
+@CucumberOptions(features="Cucumber_features/demoblaze.feature",glue="Stepdefination",
+tags="@smoke and @regression",monochrome=true,
+plugin= {"pretty","html:target\\cucumberreport2.html",
+		"pretty","json:target\\cucumberreport2.json"}
 )
 public class runner {
-	
+
 }
